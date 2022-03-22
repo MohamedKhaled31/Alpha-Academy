@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="homepage.html" class="logo">  Alpha <span style="background-color: yellow; color: black;">Academy</span> </a>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="homepage.html">home</a></li>
+            <li><a href="course.html">courses +</a>
+                <ul>
+                    <li><a href="course-1.html">course 01</a></li>
+                    <li><a href="course-2.html">course 02</a></li>
+                    <li><a href="course-3.html">course 03</a></li>
+                </ul>
+            </li>
+            <li><a href="#">pages +</a>
+                <ul>
+                    <li><a href="teachers.html">teachers</a></li>
+                    <li><a href="ourteams.html">Website Team</a></li>
+                    <li><a href="blog.html">blogs</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li style="margin-top:15px;">
+                <input type="search" placeholder="Search" aria-label="Search">
+                <button style="background-color: #e9edfb; border-radius:10px; color:#224bcf; width: 100px;height: 40px; padding: 0;margin-bottom: 10px;margin-left: 3px;cursor: pointer;" type="submit">Search</button>
+            </li>
+            <li>
+                <form class="form-inline my-2 my-lg-0" id="btn-1">
+                <button onclick="location.href = 'signpage.html?mode=signin'"  style="background-color: #f76729; border-radius:10px; color:#fff; width: 80px;height: 30px; padding: 0;margin: 20px 0 10px 15px;" class="btn my-2 my-sm-0 mr-1"type="button">Sign in</button>
+                <button onclick="location.href = 'signpage.html?mode=signup'"  style="background-color: #f76729; border-radius:10px; color:#fff; width: 80px;height: 30px; padding: 0;"class="btn my-2 my-sm-0"type="button">Sign Up</button>
+                </form>
+            </li>
+        </ul>
+        </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home">
+
+    <div class="image">
+        <img src="images/home-img.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3>your course to success</h3>
+        <p>Get that "ready for anything" feeling with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- categories section starts  -->
+
+<section class="category">
+
+    <a href="#" class="box">
+        <img src="images/category-1.png" alt="">
+        <h3>computer science</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-2.png" alt="">
+        <h3>Problem solving</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-4.png" alt="">
+        <h3>social science</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="images/category-5.png" alt="">
+        <h3>data analysis</h3>
+    </a>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>STUDENTS</h3>
+            <a href="homepage.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="course-1.html"> <i class="fas fa-arrow-right"></i> course-1 </a>
+            <a href="course-2.html"> <i class="fas fa-arrow-right"></i>course-2 </a>
+            <a href="course-3.html"> <i class="fas fa-arrow-right"></i> course-3 </a>
+        </div>
+        
+        <div class="box">
+            <h3>INSTRUCTOR</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> web design </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> graphic design</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> UI / UX design</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> all courses</a>
+            <a href="teachers.html"> <i class="fas fa-arrow-right"></i> teachers </a>
+        </div>
+        
+        <div class="box">
+            <h3>CONTACT US</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> certificates </a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog </a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+        
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        </div>
+        
+    </div>
+
+    <div class="credit"> <div><img src="images/logo.2.png" style="width: 200px; height: 100;"></div> created by © <span> Alpha Team 2022</span></div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
